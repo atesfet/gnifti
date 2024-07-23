@@ -8,7 +8,7 @@ Requires a CUDA GPU.
 usage: gnifti-maths.py [-h] [--examples] [-i INPUT] [-o OUTPUT]
         [--add ADD] [--sub SUB] [--mul MUL] [--div DIV] [--mas MAS] [--thr THR] [--uthr UTHR]
         [--exp] [--log] [--sin] [--cos] [--tan] [--asin] [--acos] [--atan] [--sqr] [--sqrt]
-        [--recip] [--abs] [--bin] [--binv] [--dilM DILM DILM DILM] [--dilD DILD DILD DILD]
+        [--recip] [--abs] [--binarize] [--binv] [--dilM DILM DILM DILM] [--dilD DILD DILD DILD]
         [--ero ERO ERO ERO] [--tfce TFCE TFCE] [--tensor_decomp] [--bptf BPTF BPTF]
         [--dt {float,double}] [--odt {float,double}]
 ```
@@ -42,7 +42,7 @@ options:
  --sqrt          Apply the square root function to the input image
  --recip         Apply the reciprocal function to the input image
  --abs           Apply the absolute value function to the input image
- --bin           Binarize the input image (values > 0 become 1, otherwise 0)
+ --binarize           Binarize the input image (values > 0 become 1, otherwise 0)
  --binv          Invert the binarization of the input image (values == 0 become 1, otherwise 0)
  --dilM DILM DILM DILM
                  Apply mean dilation with a specified kernel size (3 integers)
