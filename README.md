@@ -1,3 +1,4 @@
+
 # GPU-Accelerated NIFTI Image Processing Toolbox (GNIFTI)
 
 Requires a CUDA GPU.
@@ -89,5 +90,3 @@ options:
  --histogram nbins   Output histogram with nbins
  --histogram_limited nbins min max
             Output histogram with nbins and limits
-
-
